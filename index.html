@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <link rel="shortcut icon" type="image/x-icon" href="https://emojifavicon.dev/favicons/1f321.ico" />
+
+<body>
+    <form>
+        <h1>Temperature conversion: </h1>
+        <input type="number" id="textBox" value=" ">
+        <br>
+
+        <input type="radio" id="toFahrenheit" name="unit">
+        <label for="toFahrenheit">Celsius ➡️ Fahrenheit</label>
+
+        <br>
+        <input type="radio" id="toCelsius" name="unit">
+        <label for="toCelsius">Fahrenheit ➡️ Celsius</label>
+
+        <br>
+        <button type="button" onclick="Convert()">submit</button>
+        <p id="result"></p>
+    </form>
+</body>
+
+</html>
